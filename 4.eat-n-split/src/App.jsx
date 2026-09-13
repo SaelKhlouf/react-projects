@@ -67,6 +67,7 @@ function App() {
         friends={friends} 
         setFriends={setFriends}
         selectedFriend={selectedFriend}
+        key={selectedFriend}
         >
       </FormSplitBill>
     </div>
